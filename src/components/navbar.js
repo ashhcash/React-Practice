@@ -1,8 +1,8 @@
 import React from 'react'
-import { FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa"
+import './Home.css'
 
-
-export const navbar = () => {
+export const Navbar = () => {
   return (
     <nav>
         <div className = "nav-logo">
@@ -11,3 +11,4 @@ export const navbar = () => {
     </nav>
   )
 }
+export default Navbar 
