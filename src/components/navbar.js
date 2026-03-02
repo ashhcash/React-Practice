@@ -13,6 +13,41 @@ export const Navbar = () => {
 				      <li>Support</li>
 			     </ul>
         </div>
+        <div className = "sub-nav">
+          <ul>
+				      <li>New Arrivals</li>
+				      <li>Hot Deals</li>
+			        <li className='wom-btn'>Women's
+                <div className='wom-nav'>
+                  <div className='cardi'>
+                    <p>20% off on cardigans</p>
+                    <img src = "/images/cardiganWomen.jpg" alt = "sweaterimg"></img>
+                    <img src = "/images/cardiWomen.jpg" alt = "sweaterimg"></img>
+                  </div>
+                  <div className = 'tools'>
+                    <p>Get Crochet Tool Bundles</p>
+                    <img src = "/images/crochetKit.jpg" alt = "toolimg"></img>
+                    <img src = "/images/sewingKit.jpg" alt = "toolimg"></img>
+                  </div>
+                </div>
+              </li>
+				      <li className='men-btn'>Men's
+                <div className='men-nav'>
+                  <div className='sweaterM'>
+                    <p>Men's Sweater</p>
+                    <img src = "/images/sweaterMen.jpg" alt = "sweaterimg"></img>
+                    <img src = "/images/sweaterMen2.jpg" alt = "sweaterimg"></img>
+                  </div>
+                  <div className = 'cardiM'>
+                    <p>Get Crochet Tool Bundles</p>
+                    <img src = "/images/cardiMen.jpg" alt = "crochetimg"></img>
+                    <img src = "/images/cardiganMen.webp" alt = "crochetimg"></img>
+                  </div>
+                </div>
+              </li>
+              <li>Yarn Collection</li>
+			     </ul>
+        </div>
     </nav>
   )
 }

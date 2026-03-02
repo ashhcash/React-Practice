@@ -47,6 +47,90 @@ body {
 .nav-logo ul li:hover::after{
 	width: 100%;
 }
+.sub-nav{
+    background-color: rgb(37, 36, 36);
+	font-size: 18pt;
+	text-align: center;
+	color: white;
+}
+.sub-nav ul{
+	margin: 0;
+}
+.sub-nav ul li{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0 30px;
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+  cursor: pointer;
+}
+.wom-nav{
+    flex-direction: column;
+    height: 450px;
+    width: 450px;
+    font-size: 11pt;
+    background-color:rgb(37, 36, 36);
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    z-index: 5;
+    position: absolute;
+    display: none;
+    left: 40%;
+    padding-top: 20px;
+    cursor: default;
+}
+.wom-nav img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.wom-nav img:hover {
+  transform: scale(1.2);
+}
+.wom-nav p{
+    margin: 6px;
+}
+.wom-btn:hover .wom-nav{
+  display: block;
+}
+.men-nav{
+      flex-direction: column;
+    height: 450px;
+    width: 450px;
+    font-size: 11pt;
+    background-color:rgb(37, 36, 36);
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    z-index: 5;
+    position: absolute;
+    display: none;
+    left: 46%;
+    padding-top: 20px;
+    cursor: default;
+}
+.men-nav img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.men-nav img:hover {
+  transform: scale(1.2);
+}
+.men-nav p{
+    margin: 6px;
+}
+.men-btn:hover .men-nav{
+  display: block;
+}
 .slider {
   position: relative;
   width: 100%;
