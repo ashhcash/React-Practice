@@ -7,6 +7,12 @@ export const Navbar = () => {
     <nav>
         <div className = "nav-logo">
             <img src = "/images/logo.png" alt = "logo"></img>
+            <ul>
+				      <li>Home</li>
+				      <li>About Us</li>
+			        <li>Products</li>
+				      <li>Support</li>
+			     </ul>
         </div>
     </nav>
   )
