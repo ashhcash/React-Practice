@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaShoppingCart } from "react-icons/fa"
 import './Home.css'
 
 export const Navbar = () => {
