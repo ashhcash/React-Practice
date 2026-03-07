@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <nav>
         <div className = "nav-logo">
@@ -25,7 +25,7 @@ export const Navbar = () => {
                     <img src = "/images/cardiWomen.jpg" alt = "sweaterimg"></img>
                   </div>
                   <div className = 'tools'>
-                    <p>Get Crochet Tool Bundles</p>
+                    <p>Get Crochet Tool Bundles</p>7
                     <img src = "/images/crochetKit.jpg" alt = "toolimg"></img>
                     <img src = "/images/sewingKit.jpg" alt = "toolimg"></img>
                   </div>
@@ -51,4 +51,4 @@ export const Navbar = () => {
     </nav>
   )
 }
-export default Navbar 
+export default Navbar
