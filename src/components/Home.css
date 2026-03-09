@@ -167,3 +167,27 @@ body {
 .dot.active {
   background-color: rgb(47, 42, 42);
 }
+.a-container{
+    position: relative;
+    background-color: #F0BFDB;
+    width: 100%;
+    height: auto;
+}
+.arrival-txt{
+    font-weight: bold;
+    font-size: 30pt;
+    text-align: center;
+    padding: 30px;
+}
+.a-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 1500px; 
+    width: 100%;
+    
+}
+.items-container{
+  align-items: center;
+}

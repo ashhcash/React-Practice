@@ -1,0 +1,26 @@
+.card-img{
+    height: 450px;
+    width: 300px;
+    border-radius: 5%;
+    transition: 0.5s;
+    border: 1px;
+}
+.card-img:hover{
+    scale: 1.1;
+}
+.card{
+    padding: 40px;
+}
+.card-desc{
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 22px;
+
+}
+.card-desc p{
+    margin: 0;
+}
+.card-desc h4{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
