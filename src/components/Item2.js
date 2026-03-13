@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Item.css"
 const Item2 = ({image, title}) => {
   return (
     <div className='item-container'>

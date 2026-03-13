@@ -6,7 +6,7 @@
     border: 1px;
 }
 .card-img:hover{
-    scale: 1.1;
+    scale: 1.07;
 }
 .card{
     padding: 40px;
@@ -23,4 +23,25 @@
 .card-desc h4{
     margin-top: 5px;
     margin-bottom: 30px;
+}
+/* -------------------------------The second card element in the page(item2) */
+.item-container img{
+    height: 300px;
+    width: 400px;
+    border-radius: 2%;
+    transition: 0.5s;
+    border: 1px;
+}
+.item-container img:hover{
+    scale: 0.95;
+}
+.item-title p{
+    margin-top: 0;
+    font-size: 22px;
+    color: rgb(103, 98, 98);
+
+}
+.item-title p:hover{
+    color: black;
+    cursor: pointer;
 }

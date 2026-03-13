@@ -17,9 +17,19 @@ const Blog = () => {
                 />
             ))}
         </div>
+
+        <div className='book-container'>
+            <img className='book' alt='book' src='/images/ebook.png'></img>
+            <div className='book-desc'>
+                <h2>Printable Crochet Ebook</h2>
+                <h4>$200</h4>
+                <button>Purchase</button>
+            </div>
+        </div>
     </div>
   )
 }
+
 
 const items = [
     {
@@ -34,7 +44,7 @@ const items = [
     },
         {
         id : 3 , 
-        title : 'Get the pattern for this beautiful star blanket',
+        title : 'Get the pattern for this star blanket',
         image : "/images/starBlanket.jpg"
     },
         {
@@ -44,7 +54,7 @@ const items = [
     },
         {
         id : 5 , 
-        title : 'Make this simple beanie with only one stitch!',
+        title : 'Make this simple beanie with one stitch!',
         image : "/images/beanie.jpg"
     },
         {
