@@ -173,11 +173,31 @@ body {
     width: 100%;
     height: auto;
 }
+.mid-txt{
+  height: auto;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+
+}
+.mid-txt h1{
+  font-size: 40pt;
+}
+.mid-txt p{
+  font-size: 26pt;
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+  
+}
+/* ------------------------ for item1 */
 .arrival-txt{
     font-weight: bold;
     font-size: 30pt;
     text-align: center;
     padding: 30px;
+    margin-top: 0;
 }
 .a-items{
     display: flex;
@@ -190,4 +210,25 @@ body {
 }
 .items-container{
   align-items: center;
+}
+/* ------------------------ For item2 */
+.b-container h1{
+  color: rgb(178, 78, 137);
+  font-size: 34pt;
+  text-align: center;
+  padding-top: 5%;
+}
+.b-container h4{
+  font-weight: 100;
+  font-size: 20pt;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 4%;
+}
+.b-items{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
 }

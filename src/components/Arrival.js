@@ -3,6 +3,12 @@ import Item from './Item'
 const Arrival = () => {
     return (
             <div className='a-container'>
+                <div className='mid-txt'>
+                    <h1>Loops, knots, and endless possibilities</h1>
+                    <p>Celebrate the art of crochet with us. 
+                        Choose from unique handmade garments and accessories, explore vibrant yarns, 
+                        or pick up the right tools to bring your own ideas to life. We make it easy to shop, stitch, and style.</p>
+                </div>
                 <p className='arrival-txt'>New Arrivals</p>
                 <div className='a-items'>
                     {items.map((item) =>(
@@ -73,14 +79,14 @@ const items = [
         title : "Capybara Plushie" ,
         price : "$50",
         image : "/images/capybara.jpg"
-    },
+    }
 
-    {
-        id : 9 , 
-        title : "Green Tote Bag" ,
-        price : "$60",
-        image : "/images/greenbag.jpg"
-    },
+    // {
+    //     id : 9 , 
+    //     title : "Green Tote Bag" ,
+    //     price : "$60",
+    //     image : "/images/greenbag.jpg"
+    // },
     
 ]
 export default Arrival
